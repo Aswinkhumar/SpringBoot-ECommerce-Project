@@ -1,0 +1,12 @@
+package com.eCommerce.application.Service;
+
+import com.eCommerce.application.RequestAndResponse.CategoryDTO;
+import com.eCommerce.application.RequestAndResponse.CategoryResponse;
+
+public interface CategoryService {
+    CategoryResponse getAllCategories(Integer pageNumber, Integer pageSize, String sortBy, String sortOrder);
+    CategoryDTO createCategory(CategoryDTO category);
+    CategoryDTO deleteCategory(Long id);
+
+    CategoryDTO updateCategory(CategoryDTO categoryDTO, Long categoryId);
+}
