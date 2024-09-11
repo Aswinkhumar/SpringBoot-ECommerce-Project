@@ -1,11 +1,11 @@
 package com.eCommerce.application.Service;
 
-import com.eCommerce.application.RequestAndResponse.ProductDTO;
-import com.eCommerce.application.RequestAndResponse.ProductResponse;
+import com.eCommerce.application.Model.ProductDTO;
+import com.eCommerce.application.Model.ProductResponse;
 import com.eCommerce.application.Exceptions.APIException;
 import com.eCommerce.application.Exceptions.ResourceNotFoundException;
-import com.eCommerce.application.Model.Category;
-import com.eCommerce.application.Model.Product;
+import com.eCommerce.application.Entity.Category;
+import com.eCommerce.application.Entity.Product;
 import com.eCommerce.application.Repository.CategoryRepository;
 import com.eCommerce.application.Repository.ProductRepository;
 import org.modelmapper.ModelMapper;

@@ -1,7 +1,7 @@
 package com.eCommerce.application.Controller;
 
-import com.eCommerce.application.RequestAndResponse.ProductDTO;
-import com.eCommerce.application.RequestAndResponse.ProductResponse;
+import com.eCommerce.application.Model.ProductDTO;
+import com.eCommerce.application.Model.ProductResponse;
 import com.eCommerce.application.Configurations.AppConstants;
 import com.eCommerce.application.Service.ProductService;
 import jakarta.validation.Valid;

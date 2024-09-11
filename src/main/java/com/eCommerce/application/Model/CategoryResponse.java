@@ -1,4 +1,4 @@
-package com.eCommerce.application.RequestAndResponse;
+package com.eCommerce.application.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

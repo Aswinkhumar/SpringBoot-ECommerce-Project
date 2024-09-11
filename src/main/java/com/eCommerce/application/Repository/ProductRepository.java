@@ -1,7 +1,7 @@
 package com.eCommerce.application.Repository;
 
-import com.eCommerce.application.Model.Category;
-import com.eCommerce.application.Model.Product;
+import com.eCommerce.application.Entity.Category;
+import com.eCommerce.application.Entity.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
