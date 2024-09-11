@@ -19,7 +19,7 @@ public class LoginResponse {
 
     private List<String> roles;
 
-    private String jwtToken;
+    //private String jwtToken;
 
 }
 
