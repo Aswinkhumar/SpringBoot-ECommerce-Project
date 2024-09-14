@@ -3,15 +3,14 @@ package com.eCommerce.application.Entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
-
-import java.util.List;
+import lombok.*;
 
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
 @Table(name = "address")
 public class Address {
     @Id
@@ -46,4 +45,5 @@ public class Address {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
+
 }
